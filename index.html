@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Josefin+Slab|Kalam:400,700|Kaushan+Script|Prompt:400,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Francois+One|Josefin+Sans|Mukta+Malar" rel="stylesheet">
@@ -30,21 +31,49 @@
 				encourage the users to choose options better for the environment in terms of the type of
 				cup they are using, whether it be plastic, paper, or a portable mug. </p>
 
-			<h2><i>How many plastic cups did you throw away?</i></h2>
-			<input type="number" id="myNumber" value="2">
-			<p>Click below to see your impact on the environment.</p>
-			<button class="btnbeluga" onclick=myFunction()>Try It!</button>
-			<p id="demo"></p>
+			<div class="cuprow" align="center">
+				<h3><i>Select a Cup Type</i></h3>
+				<div class="cuptype">
+					<img src="https://images-na.ssl-images-amazon.com/images/I/61pCWfoLuKL._SY450_.jpg" alt="Mug" class="image">
+					<div class="overlay">
+						<a href="#" class="icon-cup">
+							<i class="fa fa-coffee"></i>
+						</a>
+					</div>
+				</div>
+				<div class="cuptype">
+					<img src="https://images-na.ssl-images-amazon.com/images/I/61K1nCdMfdL._SY550_.jpg" alt="Paper" class="image">
+					<div class="overlay">
+						<a href="#" class="icon-cup">
+							<i class="fa fa-coffee"></i>
+						</a>
+					</div>
+				</div>
+				<div class="cuptype">
+					<img src="https://images-na.ssl-images-amazon.com/images/I/61gDXXSBg9L._SY741_.jpg" alt="Reusable Thermos" class="image">
+					<div class="overlay">
+						<a href="#" class="icon-cup">
+							<i class="fa fa-coffee"></i>
+						</a>
+					</div>
+				</div>
+				<div class="cuptype">
+					<img src="https://images-na.ssl-images-amazon.com/images/I/51D5icKvuEL._SY879_.jpg" alt="Reusable Cold" class="image">
+					<div class="overlay">
+						<a href="#" class="icon-cup">
+							<i class="fa fa-coffee"></i>
+						</a>
+					</div>
+				</div>
+			</div>
 
-	<!-- Links to Social Media Sites -->
-			<ul class="icons">
-				<li><a href="https://github.com/linmaliakal" class="icon fa-github"><span class="label">GitHub</span></a></li>
-				<li><a href="https://twitter.com/linmaliakal" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="https://www.facebook.com/linette.maliakal" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-				<li><a href="https://www.linkedin.com/in/linette-maliakal/">LinkedIn</a></li>
-				<li><a href="https://www.instagram.com/linmaliakal/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-			</ul>
-		</nav>
+			<div id="cupcounter" align="center">
+				<h3><i>How many plastic cups did you throw away?</i></h3>
+				<input type="number" id="myNumber" value="2">
+				<p>Click below to see your impact on the environment.</p>
+				<button class="btnbeluga" onclick=myFunction()>Try It!</button>
+				<p id="demo"></p>
+			</div>
 
 	<!-- Footer -->
 		<footer id="footer">
