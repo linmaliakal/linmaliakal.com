@@ -2,7 +2,7 @@
 <html>
 	<!-- fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Josefin+Slab|Kalam:400,700|Kaushan+Script|Prompt:400,900" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Francois+One|Josefin+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Francois+One|Josefin+Sans|Mukta+Malar" rel="stylesheet">
 	<!-- css references -->
 	<link rel="stylesheet" href="css/style.css">
 
@@ -16,6 +16,46 @@
     </nav>
 	</head>
 
+	<!-- contact form -->
 	<body>
-
+		<h2>Contact Me</h2>
+		<div class="container-forms">
+			<form action="/action_page.php">
+				<div class="row">
+					<div class="col-25">
+						<label for="fname">First Name</label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="firstname" name="firstname" placeholder="Your first name..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="lname">Last Name</label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="subject">Message</label>
+					</div>
+					<div class="col-75">
+						<textarea id="subject" name="subject" placeholder="Leave me any feedback or reach out to schedule a meet-up.." style="height:200px"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<input type="submit" value="Send Message" />
+				</div>
+			</form>
+		</div>
 	</body>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="container">
+		<hr>
+			<p class="copyright-muted" align="center">Copyright © linmaliakal 2018</p>
+		</div>
+	</footer>
