@@ -1,0 +1,79 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#intro {
+	text-align: center;
+}
+
+::selection {
+	color: white;
+	background: #9FC490;
+}
+
+.btn {
+    border: none;
+    background-color: #9FC490;
+		color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+	background-color: #C0DFA1;
+	color: white;
+}
+
+body {
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'Mukta Malar', sans-serif;
+  background: #f8f8f8;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #465362;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #D3D3D3;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #011936; /* or #084C61*/
+  color: white;
+}
+
+/*a:visited {
+	color: #82A3A1;
+}
+
+a:hover {
+	color: #C0DFA1;
+}
+
+a:active {
+	color: #011936;
+}
+*/
+/* Color Palette
+#011936
+#465362
+#82A3A1
+#9FC490
+#C0DFA1
+*/
