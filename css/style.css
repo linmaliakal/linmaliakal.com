@@ -117,12 +117,12 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #D3D3D3;
-  color: black;
+  background-color: #516172;
+  color: white;
 }
 
 .topnav a.active {
-  background-color: #011936; /* or #084C61*/
+  background-color: #5E7084; /*011936 */
   color: white;
 }
 
