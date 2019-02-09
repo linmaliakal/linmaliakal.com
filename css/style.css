@@ -90,13 +90,9 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #011936;
 }
 
-head {
-	margin-left: 3%;
-	margin-right: 3%;
-}
-
 body {
 	background: #f8f8f8;
+	margin: 0px;
 }
 
 #brewforbelugas {
@@ -106,8 +102,6 @@ body {
 }
 
 .topnav {
-	margin-left: 0%;
-	margin-right: 0%;
   overflow: hidden;
   background-color: #465362;
 }
