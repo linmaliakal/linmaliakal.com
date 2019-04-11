@@ -1,6 +1,9 @@
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Francois One', sans-serif;
 }
+h1 {
+	font-size: 30px;
+}
 
 #intro {
 	text-align: center;
@@ -77,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btnbeluga {
-	background-color: #465362;
+	background-color: #036635;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -87,12 +90,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .btnbeluga:hover {
 	transition-duration: 0.5s;
-	background-color: #011936;
+	background-color: #92a879;
 }
 
 body {
-	background: #f8f8f8;
+	background: #2e2e30;/*#f8f8f8;*/
 	margin: 0px;
+	color: #f8f8f8;
 }
 
 #brewforbelugas {
@@ -103,26 +107,28 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #465362;
+  background-color: #434447;
+	height: 75px;
 }
 
 .topnav a {
   float: right;
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+  text-align: inherit;
+  padding: 25px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Francois One', sans-serif;
+	height: 75px;
 }
 
 .topnav a:hover {
-  background-color: #516172;
+  background-color: #3a3a3d;
   color: white;
 }
 
 .topnav a.active {
-  background-color: #5E7084; /*011936 */
+  background-color: #2e2e30; /*011936 */
   color: white;
 }
 
